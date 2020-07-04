@@ -2,7 +2,7 @@ package com.gl.profilesDemo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
+//annotate
 @Component
 public class EnvDetails {
     @Value("${app.server.name}")
